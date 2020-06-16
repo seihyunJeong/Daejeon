@@ -1,0 +1,25 @@
+{
+  "name": "scraping_amazon_traking_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "npm": "^6.13.6",
+    "proxycrawl": "^1.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
